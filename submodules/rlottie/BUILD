@@ -35,6 +35,7 @@ objc_library(
         "-I{}/rlottie/src/vector".format(package_name()),
         "-I{}/rlottie/src/vector/pixman".format(package_name()),
         "-I{}/rlottie/src/vector/freetype".format(package_name()),
+        "-std=c++14",
     ],
     deps = [
     ],
