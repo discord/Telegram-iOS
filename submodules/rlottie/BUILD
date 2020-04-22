@@ -20,6 +20,11 @@ objc_library(
     ]),
     includes = [
         "PublicHeaders",
+        ".",
+        "rlottie/inc/",
+        "rlottie/src/vector/",
+        "rlottie/src/vector/pixman",
+        "rlottie/src/vector/freetype",
     ],
     copts = [
         "-Dpixman_region_selfcheck(x)=1",
