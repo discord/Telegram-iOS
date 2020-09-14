@@ -11,9 +11,3 @@ url=https://github.com/bazelbuild/rules_apple.git
 [submodule "build-system/bazel-rules/apple_support"]
 	path = build-system/bazel-rules/apple_support
 	url = https://github.com/bazelbuild/apple_support.git
-[submodule "build-system/tulsi"]
-	path = build-system/tulsi
-	url = https://github.com/ali-fareed/tulsi.git
-[submodule "third-party/depot_tools"]
-	path = third-party/depot_tools
-	url = https://chromium.googlesource.com/chromium/tools/depot_tools.git
