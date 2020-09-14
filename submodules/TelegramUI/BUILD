@@ -41,7 +41,7 @@ swift_library(
         "//submodules/TelegramCallsUI:TelegramCallsUI",
         "//submodules/TelegramUIPreferences:TelegramUIPreferences",
         "//submodules/MediaPlayer:UniversalMediaPlayer",
-        "//submodules/TelegramVoip:TelegramVoip",
+        #"//submodules/TelegramVoip:TelegramVoip",
         "//submodules/DeviceAccess:DeviceAccess",
         "//submodules/WatchCommon/Host:WatchCommon",
         "//submodules/LightweightAccountData:LightweightAccountData",
